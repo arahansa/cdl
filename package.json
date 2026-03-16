@@ -1,6 +1,6 @@
 {
   "name": "@arahansa/cdl",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Directory link manager - register and jump to directories by alias",
   "type": "module",
   "bin": {
@@ -19,6 +19,14 @@
     "alias"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arahansa/cdl.git"
+  },
+  "homepage": "https://github.com/arahansa/cdl#readme",
+  "bugs": {
+    "url": "https://github.com/arahansa/cdl/issues"
+  },
   "files": [
     "dist",
     "src/shell"
