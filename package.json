@@ -1,0 +1,32 @@
+{
+  "name": "@arahansa/cdl",
+  "version": "0.1.0",
+  "description": "Directory link manager - register and jump to directories by alias",
+  "type": "module",
+  "bin": {
+    "cdl": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc && cp -r src/shell dist/shell",
+    "dev": "tsc --watch",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "cli",
+    "directory",
+    "navigation",
+    "alias"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist",
+    "src/shell"
+  ],
+  "devDependencies": {
+    "@types/node": "25.5.0",
+    "tsx": "4.21.0",
+    "typescript": "5.9.3",
+    "vitest": "4.1.0"
+  }
+}
